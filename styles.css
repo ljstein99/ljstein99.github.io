@@ -1,36 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f4f4f4;
     color: #333;
-}
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-}
-header a {
-    color: #ffdd55;
-    text-decoration: none;
-}
-h1 {
-    margin: 0;
-}
-h2 {
-    color: #444;
 }
 section {
     padding: 20px;
-    margin: 0 10px;
-    background: #fff;
-    border-bottom: 2px solid #eee;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: #fff;
+    background-color: #333;
 }
