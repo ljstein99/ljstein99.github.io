@@ -1,40 +1,74 @@
-
 :root {
-    --primary-color: #06D6A0;
+    --primary-color: #ffffff;
     --secondary-color: #cf991b;
     --accent-color: #0c2e9c;
     --text-color: #252c42;
+    --more-color: #373941b6;
 }
-body {
-    font-family: 'Arial', sans-serif;
-    color: var(--text-color);
-}
+
 header, footer {
     background: var(--primary-color);
     color: white;
+    font-size: calc(0.7em + 0.4vw);
 }
+
+body {
+    font-size: calc(0.7em + 0.4vw);
+    font-family: 'georgia', sans-serif;
+    color: var(--text-color);
+}
+
+h3 {
+    font-size: calc(1em + 0.4vw);
+    color: var(--text-color);
+}
+
+h2 {
+    font-size: calc(1.7em + 0.4vw);
+    color: var(--accent-color);
+}
+
+h1 {
+    font-size: calc(2em + 0.4vw);
+    font-weight: bold;
+    color: #ffffffb9;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: var(--more-color);
+    margin: 5% 0;
+}
+
 a, .btn {
     transition: transform 0.3s ease;
 }
+
 a:hover, .btn:hover {
     transform: translateY(-2px);
 }
-h1 {
-    font-weight: bold;
-    color: #ffffffb9;
-    font-size: 60px;
-}
-h2, h3 {
-    color: var(--accent-color);
-}
+
 .btn-primary {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     font-weight: bold;
 }
+
 .navbar-dark .navbar-nav .nav-link:hover {
     color: var(--secondary-color);
 }
+
+.navbar-toggler {
+    font-size: 2vw; /* scales the icon inside the button */
+    padding: 1vw 1.2vw; /* scales the padding around the icon */
+}
+
+.navbar-toggler-icon {
+    background-size: contain;
+}
+
