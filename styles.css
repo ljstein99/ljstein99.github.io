@@ -1,9 +1,9 @@
 
 :root {
     --primary-color: #06D6A0;
-    --secondary-color: #FFD166;
-    --accent-color: #EF476F;
-    --text-color: #073B4C;
+    --secondary-color: #cf991b;
+    --accent-color: #0c2e9c;
+    --text-color: #252c42;
 }
 body {
     font-family: 'Arial', sans-serif;
@@ -19,7 +19,12 @@ a, .btn {
 a:hover, .btn:hover {
     transform: translateY(-2px);
 }
-h1, h2, h3 {
+h1 {
+    font-weight: bold;
+    color: #ffffffb9;
+    font-size: 60px;
+}
+h2, h3 {
     color: var(--accent-color);
 }
 .btn-primary {
