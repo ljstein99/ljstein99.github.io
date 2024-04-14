@@ -12,3 +12,12 @@ section {
 footer {
     background-color: #333;
 }
+.experience-item {
+    display: flex;
+    justify-content: space-between; /* Aligns items to the left and right */
+    align-items: baseline; /* Aligns items in a way that their baselines align */
+}
+
+.date-right {
+    white-space: nowrap; /* Ensures the date doesn't wrap onto the next line */
+}
