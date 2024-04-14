@@ -5,47 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hobbies</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="bg-dark text-white p-4 text-center">
-        <h1>My Hobbies</h1>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav mx-auto">
-                        <a class="nav-link" href="index.html">About Me</a>
-                        <a class="nav-link active" href="hobbies.html">Hobbies</a>
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </div>
+<header class="bg-dark text-white p-4 text-center">
+    <h1>My Hobbies</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-link" href="index.html">About Me</a>
+                    <a class="nav-link active" href="hobbies.html">Hobbies</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="container mt-4">
-        <section class="my-3">
-            <h2>Video Game Development</h2>
-            <p>Details about my projects in video game development.</p>
-        </section>
-        <section class="my-3">
-            <h2>Favorite Books</h2>
-            <p>Details about my favorite books.</p>
-        </section>
-        <section class="my-3">
-            <h2>Sports I've Played</h2>
-            <p>Details about the sports I've participated in.</p>
-        </section>
-    </div>
-    <footer class="bg-dark text-white text-center p-3 mt-4">
-        <p>© 2024 Lucas Steinmetz</p>
-        <p>lsteinme@villanova.edu</p>
-        <p>(484)-587-3572</p>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </div>
+    </nav>
+</header>
+<div class="container mt-4">
+    <section class="my-3" data-aos="fade-right" data-aos-delay="400">
+        <h2>Video Game Development</h2>
+        <p>Details about my projects in video game development.</p>
+    </section>
+    <section class="my-3" data-aos="fade-left" data-aos-delay="500">
+        <h2>Favorite Books</h2>
+        <p>Details about my favorite books.</p>
+    </section>
+    <section class="my-3" data-aos="fade-up" data-aos-delay="600">
+        <h2>Sports I've Played</h2>
+        <p>Details about the sports I've participated in.</p>
+    </section>
+</div>
+<footer class="bg-dark text-white text-center p-3 mt-4">
+    <p>© 2024 Lucas Steinmetz</p>
+    <p>lsteinme@villanova.edu</p>
+    <p>(484)-587-3572</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

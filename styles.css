@@ -1,23 +1,35 @@
-body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
-section {
-    padding: 20px;
-    background-color: #fff;
-    margin-top: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-footer {
-    background-color: #333;
-}
-.experience-item {
-    display: flex;
-    justify-content: space-between; /* Aligns items to the left and right */
-    align-items: baseline; /* Aligns items in a way that their baselines align */
-}
 
-.date-right {
-    white-space: nowrap; /* Ensures the date doesn't wrap onto the next line */
+:root {
+    --primary-color: #06D6A0;
+    --secondary-color: #FFD166;
+    --accent-color: #EF476F;
+    --text-color: #073B4C;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+}
+header, footer {
+    background: var(--primary-color);
+    color: white;
+}
+a, .btn {
+    transition: transform 0.3s ease;
+}
+a:hover, .btn:hover {
+    transform: translateY(-2px);
+}
+h1, h2, h3 {
+    color: var(--accent-color);
+}
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--secondary-color);
 }

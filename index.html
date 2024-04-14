@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lucas Steinmetz | Portfolio</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
 </head>
 <body>
+
 <header class="bg-dark text-white p-4 text-center">
 <h1>Lucas Steinmetz</h1>
 <nav class="navbar navbar-expand-lg navbar-dark">
@@ -33,7 +35,7 @@
 </header>
 <div class="container mt-4">
 
-<section id="education" class="my-3">
+<section id="education" class="my-3" data-aos="fade-right" data-aos-delay="400">
 <h2>Education</h2>
 <p><strong>Villanova University</strong>, Villanova, PA | May 2027 <br>
 Bachelor of Science in Computer Science, Minor in Cybersecurity.</p>
@@ -41,7 +43,7 @@ Bachelor of Science in Computer Science, Minor in Cybersecurity.</p>
     Graduated in top 10% of class, Dean’s List.</p>
 </section>
 
-<section id="cs-experience" class="my-3">
+<section id="cs-experience" class="my-3" data-aos="fade-left" data-aos-delay="500">
 <h2>Computer Science Experience</h2>
 <p><strong>Machine Learning in Traumatic Brain Injury Prediction</strong>, Villanova University | Fall 2023 - Present <br>
     Analyzed and modeled data from 300 TBI patients using SVM and Random Forest algorithms to predict mortality and functionality, enhancing predictive accuracy and clinical applicability.</p>
@@ -53,7 +55,7 @@ Bachelor of Science in Computer Science, Minor in Cybersecurity.</p>
     efficient evaluation and interpretation of their performance data.</p>
 </section>
 
-<section id="leadership-activities" class="my-3">
+<section id="leadership-activities" class="my-3" data-aos="fade-up" data-aos-delay="600">
 <h2>Leadership & Activities</h2>
 <p><strong>Career Center Ambassador</strong>, Villanova University | Fall 2023 - Present <br>
     Actively guide and support fellow students in drafting and refining professional resumes effectively, boosting the
@@ -70,7 +72,7 @@ Bachelor of Science in Computer Science, Minor in Cybersecurity.</p>
     team's overall achievements.</p>
 </section>
 
-<section id="work-experience" class="my-3">
+<section id="work-experience" class="my-3" data-aos="fade-right" data-aos-delay="700">
     <h2>Work Experience</h2>
     <p><strong>Caddie, Philadelphia Cricket Club</strong>, Philadelphia, PA | July 2021 - Present <br>
         Leverage in-depth golf course knowledge to provide strategic guidance to players, fostering clear communication
@@ -80,12 +82,13 @@ Bachelor of Science in Computer Science, Minor in Cybersecurity.</p>
         members and visitors.</p>
     </section>
 
-<section id="skills" class="my-3">
+<section id="skills" class="my-3" data-aos="fade-left" data-aos-delay="800" data-aos-offset="50">
 <h2>Skills & Awards</h2>
 <p><strong>Programming Languages:</strong> Python, Java.</p>
 <p><strong>Operating Systems:</strong> Unix, Linux, Mac, Windows.</p>
 <p><Strong>Awards:</Strong> PSECU Scholarship Recipient, PGA Scholarship Award Recipient.</p>
 </section>
+
 </div>
 <footer class="bg-dark text-white text-center p-3 mt-4">
 <p>© 2024 Lucas Steinmetz</p>
@@ -95,5 +98,9 @@ Bachelor of Science in Computer Science, Minor in Cybersecurity.</p>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
